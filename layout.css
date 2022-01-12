@@ -1,0 +1,49 @@
+body {
+    color: yellow;
+    padding: 2%;
+    background-color: rgb(255,245,210);
+    margin: 0 15% 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+form label {
+    display: inline-block;
+    width: 250px;
+    font-weight: bold;
+    background-color: rgb(204, 0, 0)
+}
+
+form input {
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-bottom-left-radius: 1%;
+    -webkit-border-bottom-left-radius: 1%;
+}
+
+form input[type=submit ] {
+    background-color: yellow;
+    color: rgb(204, 0, 0);
+    font-size: 30px;
+}
+
+form textarea {
+    border: inset 2px gray;
+    width: 300px;
+    height: 30px;
+}
+
+.radioLabels {
+    display: inline;
+    color: black;
+}
+
+p {
+    font-size: 50px;
+}
+
+input[type="button"] {
+  display: block;
+    font-size: 20px;
+}
